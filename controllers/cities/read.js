@@ -1,14 +1,14 @@
 import City from '../../models/City.js';
 
 // Función para obtener todas las ciudades
-export const getAllCities = async (req, res, next) => {
+const getAllCities = async (req, res, next) => {
     try {
         let { name } = req.query;
         console.log(name);
 
         let query = {};
         if (name) {
-            query.name = { $regex: '^'+name,  $options: 'i' };
+            query.name = { $regex: '^' + name, $options: 'i' };
         }
 
         let allCities = await City.find(query);
@@ -22,7 +22,7 @@ export const getAllCities = async (req, res, next) => {
 };
 
 // Función para obtener una ciudad por su ID
-export const getCityById = async (req, res, next) => {
+const getCityById = async (req, res, next) => {
     try {
         let cityId = req.params.id;
         let city = await City.findById(cityId);
@@ -37,3 +37,5 @@ export const getCityById = async (req, res, next) => {
         next(error);
     }
 };
+
+export { getAllCities, getCityById };

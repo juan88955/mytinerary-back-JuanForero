@@ -2,6 +2,7 @@ import {Schema, model} from "mongoose"
 
 let collection = "cities"
 
+// Definición de esquema
 let citySchema = new Schema({
     name: { type: String, required: true },
     image: { type: String, required: true },
@@ -16,6 +17,7 @@ let citySchema = new Schema({
     timestamps: true,
 })
 
+// Modelo de MongoDB
 let City = model(collection, citySchema)
 
 export default City

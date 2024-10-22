@@ -1,6 +1,6 @@
 import City from '../../models/City.js';
 
-export const createCity = async (req, res, next) => {
+const createCity = async (req, res, next) => {
     try {
         const newCity = new City(req.body);
         const savedCity = await newCity.save();
@@ -9,3 +9,5 @@ export const createCity = async (req, res, next) => {
         next(error);
     }
 };
+
+export { createCity };
