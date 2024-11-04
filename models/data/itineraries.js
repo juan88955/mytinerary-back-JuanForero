@@ -6,7 +6,7 @@ import { ObjectId } from "mongodb";
 let itinerary = [
     // TOKYO - 5 itinerarios
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a2"),
+        cityId: new ObjectId("67294834fd88b70279be57f4"),
         author: {
             name: "Emma Wilson",
             photo: "https://randomuser.me/api/portraits/women/12.jpg"
@@ -17,7 +17,7 @@ let itinerary = [
         hashtags: ["#Culture", "#History", "#Architecture"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a2"),
+        cityId: new ObjectId("67294834fd88b70279be57f4"),
         author: {
             name: "Lucas Martinez",
             photo: "https://randomuser.me/api/portraits/men/23.jpg"
@@ -28,7 +28,7 @@ let itinerary = [
         hashtags: ["#Anime", "#Technology", "#Nightlife"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a2"),
+        cityId: new ObjectId("67294834fd88b70279be57f4"),
         author: {
             name: "Sarah Anderson",
             photo: "https://randomuser.me/api/portraits/women/31.jpg"
@@ -39,7 +39,7 @@ let itinerary = [
         hashtags: ["#Gardens", "#Shopping", "#Traditional"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a2"),
+        cityId: new ObjectId("67294834fd88b70279be57f4"),
         author: {
             name: "Oliver Davis",
             photo: "https://randomuser.me/api/portraits/men/15.jpg"
@@ -50,7 +50,7 @@ let itinerary = [
         hashtags: ["#Food", "#Temple", "#Modern"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a2"),
+        cityId: new ObjectId("67294834fd88b70279be57f4"),
         author: {
             name: "Sophie Grant",
             photo: "https://randomuser.me/api/portraits/women/22.jpg"
@@ -63,7 +63,7 @@ let itinerary = [
 
     // ROME - 4 itinerarios
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a4"),
+        cityId: new ObjectId("67294834fd88b70279be57f6"),
         author: {
             name: "Alexander Brown",
             photo: "https://randomuser.me/api/portraits/men/28.jpg"
@@ -74,7 +74,7 @@ let itinerary = [
         hashtags: ["#History", "#Art", "#Ancient"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a4"),
+        cityId: new ObjectId("67294834fd88b70279be57f6"),
         author: {
             name: "Sofia Garcia",
             photo: "https://randomuser.me/api/portraits/women/17.jpg"
@@ -85,7 +85,7 @@ let itinerary = [
         hashtags: ["#Food", "#Vatican", "#Culture"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a4"),
+        cityId: new ObjectId("67294834fd88b70279be57f6"),
         author: {
             name: "Nathan Reed",
             photo: "https://randomuser.me/api/portraits/men/33.jpg"
@@ -96,7 +96,7 @@ let itinerary = [
         hashtags: ["#Architecture", "#Museums", "#LocalLife"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a4"),
+        cityId: new ObjectId("67294834fd88b70279be57f6"),
         author: {
             name: "Charlotte Lee",
             photo: "https://randomuser.me/api/portraits/women/24.jpg"
@@ -109,7 +109,7 @@ let itinerary = [
 
     // NEW YORK - 2 itinerarios
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a6"),
+        cityId: new ObjectId("67294834fd88b70279be57f8"),
         author: {
             name: "Ethan Cooper",
             photo: "https://randomuser.me/api/portraits/men/7.jpg"
@@ -120,7 +120,7 @@ let itinerary = [
         hashtags: ["#Urban", "#Culture", "#Food"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a6"),
+        cityId: new ObjectId("67294834fd88b70279be57f8"),
         author: {
             name: "Ava White",
             photo: "https://randomuser.me/api/portraits/women/8.jpg"
@@ -133,7 +133,7 @@ let itinerary = [
 
     // BANGKOK - 5 itinerarios
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a7"),
+        cityId: new ObjectId("67294834fd88b70279be57f9"),
         author: {
             name: "Benjamin Scott",
             photo: "https://randomuser.me/api/portraits/men/20.jpg"
@@ -144,7 +144,7 @@ let itinerary = [
         hashtags: ["#Food", "#Temple", "#Culture"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a7"),
+        cityId: new ObjectId("67294834fd88b70279be57f9"),
         author: {
             name: "Victoria Adams",
             photo: "https://randomuser.me/api/portraits/women/25.jpg"
@@ -155,7 +155,7 @@ let itinerary = [
         hashtags: ["#Markets", "#River", "#Nightlife"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a7"),
+        cityId: new ObjectId("67294834fd88b70279be57f9"),
         author: {
             name: "Lucas Bennett",
             photo: "https://randomuser.me/api/portraits/men/26.jpg"
@@ -166,7 +166,7 @@ let itinerary = [
         hashtags: ["#Shopping", "#Modern", "#Street"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a7"),
+        cityId: new ObjectId("67294834fd88b70279be57f9"),
         author: {
             name: "Maya Watson",
             photo: "https://randomuser.me/api/portraits/women/27.jpg"
@@ -177,7 +177,7 @@ let itinerary = [
         hashtags: ["#Local", "#Buddhism", "#Architecture"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a7"),
+        cityId: new ObjectId("67294834fd88b70279be57f9"),
         author: {
             name: "Owen Fletcher",
             photo: "https://randomuser.me/api/portraits/men/28.jpg"
@@ -190,7 +190,7 @@ let itinerary = [
 
     // MOSCOW - 3 itinerarios
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a9"),
+        cityId: new ObjectId("67294834fd88b70279be57fb"),
         author: {
             name: "Sebastian Hughes",
             photo: "https://randomuser.me/api/portraits/men/29.jpg"
@@ -201,7 +201,7 @@ let itinerary = [
         hashtags: ["#History", "#Architecture", "#Culture"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a9"),
+        cityId: new ObjectId("67294834fd88b70279be57fb"),
         author: {
             name: "Luna Rodriguez",
             photo: "https://randomuser.me/api/portraits/women/30.jpg"
@@ -212,7 +212,7 @@ let itinerary = [
         hashtags: ["#Art", "#Theater", "#Food"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25a9"),
+        cityId: new ObjectId("67294834fd88b70279be57fb"),
         author: {
             name: "Adrian Foster",
             photo: "https://randomuser.me/api/portraits/men/31.jpg"
@@ -225,7 +225,7 @@ let itinerary = [
 
     // LONDON - 4 itinerarios
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25aa"),
+        cityId: new ObjectId("67294834fd88b70279be57fc"),
         author: {
             name: "Max Reynolds",
             photo: "https://randomuser.me/api/portraits/men/32.jpg"
@@ -236,7 +236,7 @@ let itinerary = [
         hashtags: ["#History", "#Culture", "#Royal"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25aa"),
+        cityId: new ObjectId("67294834fd88b70279be57fc"),
         author: {
             name: "Alice Cooper",
             photo: "https://randomuser.me/api/portraits/women/33.jpg"
@@ -247,7 +247,7 @@ let itinerary = [
         hashtags: ["#Shopping", "#Theater", "#Food"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25aa"),
+        cityId: new ObjectId("67294834fd88b70279be57fc"),
         author: {
             name: "Felix Mitchell",
             photo: "https://randomuser.me/api/portraits/men/34.jpg"
@@ -258,7 +258,7 @@ let itinerary = [
         hashtags: ["#Museums", "#Parks", "#Architecture"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25aa"),
+        cityId: new ObjectId("67294834fd88b70279be57fc"),
         author: {
             name: "Ruby Thompson",
             photo: "https://randomuser.me/api/portraits/women/34.jpg"
@@ -271,7 +271,7 @@ let itinerary = [
 
     // CAIRO - 2 itinerarios
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25ac"),
+        cityId: new ObjectId("67294834fd88b70279be57fe"),
         author: {
             name: "Jack Harrison",
             photo: "https://randomuser.me/api/portraits/men/35.jpg"
@@ -282,7 +282,7 @@ let itinerary = [
         hashtags: ["#History", "#Pyramids", "#Culture"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25ac"),
+        cityId: new ObjectId("67294834fd88b70279be57fe"),
         author: {
             name: "Stella Morgan",
             photo: "https://randomuser.me/api/portraits/women/35.jpg"
@@ -295,7 +295,7 @@ let itinerary = [
 
     // OPORTO - 5 itinerarios
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25ad"),
+        cityId: new ObjectId("67294834fd88b70279be57ff"),
         author: {
             name: "Isaac Turner",
             photo: "https://randomuser.me/api/portraits/men/36.jpg"
@@ -306,7 +306,7 @@ let itinerary = [
         hashtags: ["#Wine", "#River", "#History"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25ad"),
+        cityId: new ObjectId("67294834fd88b70279be57ff"),
         author: {
             name: "Lily Cooper",
             photo: "https://randomuser.me/api/portraits/women/36.jpg"
@@ -317,7 +317,7 @@ let itinerary = [
         hashtags: ["#Food", "#Culture", "#Architecture"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25ad"),
+        cityId: new ObjectId("67294834fd88b70279be57ff"),
         author: {
             name: "Noah Baker",
             photo: "https://randomuser.me/api/portraits/men/37.jpg"
@@ -328,7 +328,7 @@ let itinerary = [
         hashtags: ["#PortWine", "#Ocean", "#LocalLife"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25ad"),
+        cityId: new ObjectId("67294834fd88b70279be57ff"),
         author: {
             name: "Grace Kennedy",
             photo: "https://randomuser.me/api/portraits/women/37.jpg"
@@ -339,7 +339,7 @@ let itinerary = [
         hashtags: ["#Nightlife", "#Modern", "#Shopping"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25ad"),
+        cityId: new ObjectId("67294834fd88b70279be57ff"),
         author: {
             name: "Thomas Gray",
             photo: "https://randomuser.me/api/portraits/men/38.jpg"
@@ -352,7 +352,7 @@ let itinerary = [
 
     // MARRAKECH - 3 itinerarios
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25af"),
+        cityId: new ObjectId("67294834fd88b70279be5801"),
         author: {
             name: "Marcus Ellis",
             photo: "https://randomuser.me/api/portraits/men/39.jpg"
@@ -363,7 +363,7 @@ let itinerary = [
         hashtags: ["#Medina", "#Culture", "#History"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25af"),
+        cityId: new ObjectId("67294834fd88b70279be5801"),
         author: {
             name: "Sophie Grant",
             photo: "https://randomuser.me/api/portraits/women/38.jpg"
@@ -374,7 +374,7 @@ let itinerary = [
         hashtags: ["#Markets", "#Food", "#Traditional"]
     },
     {
-        cityId: new ObjectId("67293f04390ade8dbefa25af"),
+        cityId: new ObjectId("67294834fd88b70279be5801"),
         author: {
             name: "Dylan Marshall",
             photo: "https://randomuser.me/api/portraits/men/40.jpg"
