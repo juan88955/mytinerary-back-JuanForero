@@ -1,10 +1,10 @@
 import express from 'express';
 import cityRouter from './city.js';
+import itineraryRouter from './itinerary.js';
 
-// Importa las rutas de los controladores
 let router = express.Router();
 
-// Ruta principal
 router.use('/cities', cityRouter);
+router.use('/itineraries', itineraryRouter);
 
 export default router;

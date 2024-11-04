@@ -173,10 +173,10 @@ let cities = [
 
 City.insertMany(cities)
     .then(() => {
-        console.log('Datos de empleados insertados correctamente'); // mensaje de exito
+        console.log('Datos de cities insertados correctamente');
         process.exit(0);
     })
     .catch(error => {
-        console.error('Error al insertar datos de empleados:', error); // mensaje de error
+        console.error('Error al insertar datos de cities:', error);
         process.exit(1);
     });
