@@ -5,7 +5,7 @@ import morgan from 'morgan';
 import indexRouter from './routes/index.js';
 import './config/database.js';
 import not_found_handler from './middlewares/not_found_handler.js';
-import validationErrorHandler from './middlewares/validation_error_handler.js';
+import bad_request_handler from './middlewares/bad_request_handler.js';
 import error_handler from './middlewares/error_handler.js';
 
 // configuracion de servidor
@@ -27,8 +27,8 @@ server.use(morgan('dev'));
 server.use('/api', indexRouter);
 
 // Manejador de errores
+server.use(bad_request_handler); // manejador de errores de validación 400
 server.use(not_found_handler); // manejador de errores 404
-server.use(validationErrorHandler); // manejador de errores de validación 400
 server.use(error_handler); // manejador de errores 500 (general)
 
 
