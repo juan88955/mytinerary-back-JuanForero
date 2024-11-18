@@ -4,9 +4,11 @@ import Itinerary from "../Itinerary.js";
 import { ObjectId } from "mongodb";
 
 let itinerary = [
-    // TOKYO - 5 itinerarios
+    // TOKYO
     {
         cityId: new ObjectId("67294834fd88b70279be57f4"),
+        title: "Traditional Tokyo Cultural Tour",
+        image: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9",
         author: {
             name: "Emma Wilson",
             photo: "https://randomuser.me/api/portraits/women/12.jpg"
@@ -18,6 +20,8 @@ let itinerary = [
     },
     {
         cityId: new ObjectId("67294834fd88b70279be57f4"),
+        title: "Anime & Tech Tokyo Adventure",
+        image: "https://images.unsplash.com/photo-1542051841857-5f90071e7989",
         author: {
             name: "Lucas Martinez",
             photo: "https://randomuser.me/api/portraits/men/23.jpg"
@@ -29,6 +33,8 @@ let itinerary = [
     },
     {
         cityId: new ObjectId("67294834fd88b70279be57f4"),
+        title: "Tokyo Gardens & Shopping Experience",
+        image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186",
         author: {
             name: "Sarah Anderson",
             photo: "https://randomuser.me/api/portraits/women/31.jpg"
@@ -40,6 +46,8 @@ let itinerary = [
     },
     {
         cityId: new ObjectId("67294834fd88b70279be57f4"),
+        title: "Tokyo Food & Temple Tour",
+        image: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26",
         author: {
             name: "Oliver Davis",
             photo: "https://randomuser.me/api/portraits/men/15.jpg"
@@ -51,6 +59,8 @@ let itinerary = [
     },
     {
         cityId: new ObjectId("67294834fd88b70279be57f4"),
+        title: "Artistic Tokyo Photography Tour",
+        image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
         author: {
             name: "Sophie Grant",
             photo: "https://randomuser.me/api/portraits/women/22.jpg"
@@ -61,9 +71,11 @@ let itinerary = [
         hashtags: ["#Art", "#LocalLife", "#Photography"]
     },
 
-    // ROME - 4 itinerarios
+    // ROME
     {
         cityId: new ObjectId("67294834fd88b70279be57f6"),
+        title: "Ancient Rome Historical Tour",
+        image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5",
         author: {
             name: "Alexander Brown",
             photo: "https://randomuser.me/api/portraits/men/28.jpg"
@@ -75,6 +87,8 @@ let itinerary = [
     },
     {
         cityId: new ObjectId("67294834fd88b70279be57f6"),
+        title: "Vatican & Italian Cuisine Experience",
+        image: "https://images.unsplash.com/photo-1531572753322-ad063cecc140",
         author: {
             name: "Sofia Garcia",
             photo: "https://randomuser.me/api/portraits/women/17.jpg"
@@ -84,32 +98,12 @@ let itinerary = [
         likes: 0,
         hashtags: ["#Food", "#Vatican", "#Culture"]
     },
-    {
-        cityId: new ObjectId("67294834fd88b70279be57f6"),
-        author: {
-            name: "Nathan Reed",
-            photo: "https://randomuser.me/api/portraits/men/33.jpg"
-        },
-        price: 5,
-        duration: 3,
-        likes: 0,
-        hashtags: ["#Architecture", "#Museums", "#LocalLife"]
-    },
-    {
-        cityId: new ObjectId("67294834fd88b70279be57f6"),
-        author: {
-            name: "Charlotte Lee",
-            photo: "https://randomuser.me/api/portraits/women/24.jpg"
-        },
-        price: 4,
-        duration: 5,
-        likes: 0,
-        hashtags: ["#Shopping", "#Nightlife", "#Modern"]
-    },
 
-    // NEW YORK - 2 itinerarios
+    // NEW YORK
     {
         cityId: new ObjectId("67294834fd88b70279be57f8"),
+        title: "Urban New York Food Tour",
+        image: "https://images.unsplash.com/photo-1522083165195-3424ed129620",
         author: {
             name: "Ethan Cooper",
             photo: "https://randomuser.me/api/portraits/men/7.jpg"
@@ -121,6 +115,8 @@ let itinerary = [
     },
     {
         cityId: new ObjectId("67294834fd88b70279be57f8"),
+        title: "NYC Art & Shopping Experience",
+        image: "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee",
         author: {
             name: "Ava White",
             photo: "https://randomuser.me/api/portraits/women/8.jpg"
@@ -131,9 +127,11 @@ let itinerary = [
         hashtags: ["#Art", "#Shopping", "#Nightlife"]
     },
 
-    // BANGKOK - 5 itinerarios
+    // BANGKOK
     {
         cityId: new ObjectId("67294834fd88b70279be57f9"),
+        title: "Bangkok Temple & Food Tour",
+        image: "https://images.unsplash.com/photo-1563492065599-3520f775eeed",
         author: {
             name: "Benjamin Scott",
             photo: "https://randomuser.me/api/portraits/men/20.jpg"
@@ -145,6 +143,8 @@ let itinerary = [
     },
     {
         cityId: new ObjectId("67294834fd88b70279be57f9"),
+        title: "Bangkok Markets & River Adventure",
+        image: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a",
         author: {
             name: "Victoria Adams",
             photo: "https://randomuser.me/api/portraits/women/25.jpg"
@@ -154,43 +154,12 @@ let itinerary = [
         likes: 0,
         hashtags: ["#Markets", "#River", "#Nightlife"]
     },
-    {
-        cityId: new ObjectId("67294834fd88b70279be57f9"),
-        author: {
-            name: "Lucas Bennett",
-            photo: "https://randomuser.me/api/portraits/men/26.jpg"
-        },
-        price: 5,
-        duration: 3,
-        likes: 0,
-        hashtags: ["#Shopping", "#Modern", "#Street"]
-    },
-    {
-        cityId: new ObjectId("67294834fd88b70279be57f9"),
-        author: {
-            name: "Maya Watson",
-            photo: "https://randomuser.me/api/portraits/women/27.jpg"
-        },
-        price: 3,
-        duration: 4,
-        likes: 0,
-        hashtags: ["#Local", "#Buddhism", "#Architecture"]
-    },
-    {
-        cityId: new ObjectId("67294834fd88b70279be57f9"),
-        author: {
-            name: "Owen Fletcher",
-            photo: "https://randomuser.me/api/portraits/men/28.jpg"
-        },
-        price: 4,
-        duration: 5,
-        likes: 0,
-        hashtags: ["#History", "#Art", "#Photography"]
-    },
 
-    // MOSCOW - 3 itinerarios
+    // MOSCOW
     {
         cityId: new ObjectId("67294834fd88b70279be57fb"),
+        title: "Historical Moscow Architecture Tour",
+        image: "https://images.unsplash.com/photo-1513326738677-b964603b136d",
         author: {
             name: "Sebastian Hughes",
             photo: "https://randomuser.me/api/portraits/men/29.jpg"
@@ -202,6 +171,8 @@ let itinerary = [
     },
     {
         cityId: new ObjectId("67294834fd88b70279be57fb"),
+        title: "Moscow Arts & Theater Experience",
+        image: "https://images.unsplash.com/photo-1520106212299-d99c443e4568",
         author: {
             name: "Luna Rodriguez",
             photo: "https://randomuser.me/api/portraits/women/30.jpg"
@@ -211,21 +182,12 @@ let itinerary = [
         likes: 0,
         hashtags: ["#Art", "#Theater", "#Food"]
     },
-    {
-        cityId: new ObjectId("67294834fd88b70279be57fb"),
-        author: {
-            name: "Adrian Foster",
-            photo: "https://randomuser.me/api/portraits/men/31.jpg"
-        },
-        price: 3,
-        duration: 5,
-        likes: 0,
-        hashtags: ["#Winter", "#Museums", "#Nightlife"]
-    },
 
-    // LONDON - 4 itinerarios
+    // LONDON
     {
         cityId: new ObjectId("67294834fd88b70279be57fc"),
+        title: "Royal London Heritage Tour",
+        image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad",
         author: {
             name: "Max Reynolds",
             photo: "https://randomuser.me/api/portraits/men/32.jpg"
@@ -237,6 +199,8 @@ let itinerary = [
     },
     {
         cityId: new ObjectId("67294834fd88b70279be57fc"),
+        title: "London Theater & Shopping Experience",
+        image: "https://images.unsplash.com/photo-1486299267070-83823f5448dd",
         author: {
             name: "Alice Cooper",
             photo: "https://randomuser.me/api/portraits/women/33.jpg"
@@ -246,32 +210,12 @@ let itinerary = [
         likes: 0,
         hashtags: ["#Shopping", "#Theater", "#Food"]
     },
-    {
-        cityId: new ObjectId("67294834fd88b70279be57fc"),
-        author: {
-            name: "Felix Mitchell",
-            photo: "https://randomuser.me/api/portraits/men/34.jpg"
-        },
-        price: 3,
-        duration: 5,
-        likes: 0,
-        hashtags: ["#Museums", "#Parks", "#Architecture"]
-    },
-    {
-        cityId: new ObjectId("67294834fd88b70279be57fc"),
-        author: {
-            name: "Ruby Thompson",
-            photo: "https://randomuser.me/api/portraits/women/34.jpg"
-        },
-        price: 5,
-        duration: 4,
-        likes: 0,
-        hashtags: ["#Modern", "#River", "#LocalLife"]
-    },
 
-    // CAIRO - 2 itinerarios
+    // CAIRO
     {
         cityId: new ObjectId("67294834fd88b70279be57fe"),
+        title: "Ancient Pyramids & History Tour",
+        image: "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368",
         author: {
             name: "Jack Harrison",
             photo: "https://randomuser.me/api/portraits/men/35.jpg"
@@ -283,6 +227,8 @@ let itinerary = [
     },
     {
         cityId: new ObjectId("67294834fd88b70279be57fe"),
+        title: "Cairo Markets & Nile Experience",
+        image: "https://images.unsplash.com/photo-1553913861-c0fddf2619ee",
         author: {
             name: "Stella Morgan",
             photo: "https://randomuser.me/api/portraits/women/35.jpg"
@@ -293,9 +239,11 @@ let itinerary = [
         hashtags: ["#Markets", "#Food", "#River"]
     },
 
-    // OPORTO - 5 itinerarios
+    // PORTO
     {
         cityId: new ObjectId("67294834fd88b70279be57ff"),
+        title: "Porto Wine & River Tour",
+        image: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b",
         author: {
             name: "Isaac Turner",
             photo: "https://randomuser.me/api/portraits/men/36.jpg"
@@ -307,6 +255,8 @@ let itinerary = [
     },
     {
         cityId: new ObjectId("67294834fd88b70279be57ff"),
+        title: "Porto Food & Architecture Experience",
+        image: "https://images.unsplash.com/photo-1501560379-05951a742668",
         author: {
             name: "Lily Cooper",
             photo: "https://randomuser.me/api/portraits/women/36.jpg"
@@ -316,43 +266,12 @@ let itinerary = [
         likes: 0,
         hashtags: ["#Food", "#Culture", "#Architecture"]
     },
-    {
-        cityId: new ObjectId("67294834fd88b70279be57ff"),
-        author: {
-            name: "Noah Baker",
-            photo: "https://randomuser.me/api/portraits/men/37.jpg"
-        },
-        price: 5,
-        duration: 5,
-        likes: 0,
-        hashtags: ["#PortWine", "#Ocean", "#LocalLife"]
-    },
-    {
-        cityId: new ObjectId("67294834fd88b70279be57ff"),
-        author: {
-            name: "Grace Kennedy",
-            photo: "https://randomuser.me/api/portraits/women/37.jpg"
-        },
-        price: 4,
-        duration: 3,
-        likes: 0,
-        hashtags: ["#Nightlife", "#Modern", "#Shopping"]
-    },
-    {
-        cityId: new ObjectId("67294834fd88b70279be57ff"),
-        author: {
-            name: "Thomas Gray",
-            photo: "https://randomuser.me/api/portraits/men/38.jpg"
-        },
-        price: 3,
-        duration: 4,
-        likes: 0,
-        hashtags: ["#Art", "#Photography", "#Traditional"]
-    },
 
-    // MARRAKECH - 3 itinerarios
+    // MARRAKECH
     {
         cityId: new ObjectId("67294834fd88b70279be5801"),
+        title: "Historical Medina Tour",
+        image: "https://images.unsplash.com/photo-1548013146-72479768bada",
         author: {
             name: "Marcus Ellis",
             photo: "https://randomuser.me/api/portraits/men/39.jpg"
@@ -364,6 +283,8 @@ let itinerary = [
     },
     {
         cityId: new ObjectId("67294834fd88b70279be5801"),
+        title: "Marrakech Markets & Food Tour",
+        image: "https://images.unsplash.com/photo-1557700836-25f2464e845d",
         author: {
             name: "Sophie Grant",
             photo: "https://randomuser.me/api/portraits/women/38.jpg"
@@ -372,17 +293,6 @@ let itinerary = [
         duration: 5,
         likes: 0,
         hashtags: ["#Markets", "#Food", "#Traditional"]
-    },
-    {
-        cityId: new ObjectId("67294834fd88b70279be5801"),
-        author: {
-            name: "Dylan Marshall",
-            photo: "https://randomuser.me/api/portraits/men/40.jpg"
-        },
-        price: 5,
-        duration: 3,
-        likes: 0,
-        hashtags: ["#Desert", "#Adventure", "#Photography"]
     }
 ];
 

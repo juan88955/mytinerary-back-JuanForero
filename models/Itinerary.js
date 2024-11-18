@@ -8,6 +8,14 @@ let itinerarySchema = new Schema({
         ref: 'City',
         required: true
     },
+    title: {
+        type: String,
+        required: true
+    },
+    image: {
+        type: String,
+        required: true
+    },
     author: {
         name: { type: String, required: true },
         photo: { type: String, required: true }
