@@ -1,5 +1,6 @@
 import passport from "passport";
 import { Strategy as GoogleStrategy } from "passport-google-oauth20";
+import bcrypt from "bcryptjs";
 import User from "../models/User.js";
 
 passport.use(
@@ -15,14 +16,19 @@ passport.use(
                 const displayName = profile.displayName || "Unknown Name";
                 const [name, ...lastnameArray] = displayName.split(" ");
                 const lastname = lastnameArray.join(" ") || "N/A";
+
                 let user = await User.findOne({ email });
+
                 if (!user) {
+                    const salt = await bcrypt.genSalt(10);
+                    const hashedPassword = await bcrypt.hash(profile.id, salt);
+
                     user = new User({
                         name: name,
                         lastname: lastname,
                         email,
                         photo: profile.photos[0]?.value || "",
-                        password: profile.id,
+                        password: hashedPassword,
                         online: true,
                     });
                     await user.save();

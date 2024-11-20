@@ -8,7 +8,8 @@
     "start": "nodemon server.js",
     "dev": "nodemon server.js",
     "cities": "nodemon models/data/cities.js",
-    "itineraries": "node ./models/data/itineraries.js"
+    "itineraries": "node ./models/data/itineraries.js",
+    "user": "nodemon models/data/user.js"
   },
   "keywords": [],
   "author": "",
