@@ -12,7 +12,7 @@ export default (req, res) => {
     } catch (error) {
         return res.status(500).json({
             success: false,
-            message: 'Error al obtener países'
+            message: 'Error when obtaining countries'
         });
     }
 };

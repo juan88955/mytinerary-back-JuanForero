@@ -10,12 +10,12 @@ export default async (req, res) => {
 
         return res.status(200).json({
             success: true,
-            message: 'Sesión cerrada exitosamente'
+            message: 'Successfully closed session'
         });
     } catch (error) {
         return res.status(500).json({
             success: false,
-            message: 'Error al cerrar sesión'
+            message: 'Logout error'
         });
     }
 };

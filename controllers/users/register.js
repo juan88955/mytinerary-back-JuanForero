@@ -13,7 +13,7 @@ let register = async (req, res, next) => {
                 user: newUser,
                 token: req.token
             },
-            message: 'Usuario registrado exitosamente'
+            message: 'Successfully registered user'
         })
     } catch (error) {
         next(error)

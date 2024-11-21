@@ -2,11 +2,11 @@ import User from "../models/User.js";
 
 export default async (req, res, next) => {
     try {
-        console.log("Buscando usuario con el correo:", req.body.email);
+        console.log("Searching user with the mail:", req.body.email);
         let account = await User.findOne({ email: req.body.email });
 
         if (account) {
-            console.log("Usuario encontrado:", account);
+            console.log("User found:", account);
             req.user = {
                 name: account.name,
                 email: account.email,
