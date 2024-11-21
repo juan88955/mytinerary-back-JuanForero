@@ -1,4 +1,3 @@
-// routes/auth.js
 import { Router } from "express";
 import signIn from "../controllers/auth/signIn.js";
 import signOut from "../controllers/auth/signOut.js";

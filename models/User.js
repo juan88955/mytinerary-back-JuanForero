@@ -7,7 +7,7 @@ let userSchema = new Schema({
     lastname: { type: String, required: false, default: "" },
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true },
-    country: { type: String, required: false, default: "Mexico" },
+    country: { type: String, required: false, default: "Colombia" },
     photo: { type: String, default: "" },
     online: { type: Boolean, default: false },
     role: { type: Number, default: 1 }
