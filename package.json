@@ -9,7 +9,7 @@
     "dev": "nodemon server.js",
     "cities": "nodemon models/data/cities.js",
     "itineraries": "node ./models/data/itineraries.js",
-    "user": "nodemon models/data/user.js"
+    "users": "nodemon models/data/users.js"
   },
   "keywords": [],
   "author": "",
