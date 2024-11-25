@@ -24,7 +24,6 @@ export default async (req, res, next) => {
             message: "User does not exist",
         });
     } catch (error) {
-        console.error("Error en accountNotExists:", error);
         next(error);
     }
 };
