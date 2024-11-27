@@ -40,13 +40,13 @@ const handleGoogleCallback = async (req, res) => {
             }
         };
 
-        const redirectURL = process.env.FRONTEND_URL || 'https://front-end-mern-91f73.web.app/';
+        const redirectURL = process.env.FRONTEND_URL || 'http://localhost:5173';
         return res.redirect(
             `${redirectURL}/auth/google/callback?data=${encodeURIComponent(JSON.stringify(responseData))}`
         );
     } catch (error) {
         console.error('Error in callback:', error);
-        const errorRedirectURL = process.env.FRONTEND_URL || 'https://front-end-mern-91f73.web.app/';
+        const errorRedirectURL = process.env.FRONTEND_URL || 'http://localhost:5173';
         return res.redirect(`${errorRedirectURL}/signin?error=${encodeURIComponent(error.message)}`);
     }
 };
