@@ -22,7 +22,7 @@ routerAuth.get(
     '/signin/google/callback',
     passportGoogle.authenticate('google', {
         session: false,
-        failureRedirect: `${process.env.FRONTEND_URL || 'http://localhost:5173'}/signin`
+        failureRedirect: `${process.env.FRONTEND_URL || 'https://front-end-mern-91f73.web.app/'}/signin`
     }),
     generateToken,
     handleGoogleCallback
